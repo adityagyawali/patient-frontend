@@ -18,7 +18,8 @@ const initialState: State = {
     ssn: '',
     dateOfBirth: '',
     entries: []
-  }
+  },
+
 };
 
 export const StateContext = createContext<[State, React.Dispatch<Action>]>([
